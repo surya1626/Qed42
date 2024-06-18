@@ -1,0 +1,10 @@
+name: 'Qed42 assignment'
+type: module
+description: '@todo Add description.'
+package: QED42
+core_version_requirement: ^10 || ^11
+dependencies:
+  - migrate:migrate
+  - migrate_plus:migrate_plus
+  - migrate_tools:migrate_tools
+  - geofield:geofield

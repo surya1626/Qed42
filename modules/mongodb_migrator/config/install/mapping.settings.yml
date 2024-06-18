@@ -1,0 +1,6 @@
+field_mappings:
+  _id: field_id
+  city: field_city
+  loc: field_location
+  pop: field_pop
+  state: field_state

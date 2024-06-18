@@ -1,0 +1,21 @@
+uuid: c1ccf025-eae3-4e60-8d19-409d6d47a365
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - qed42_assignment
+id: qed42_assignment.field_pop
+field_name: field_pop
+entity_type: qed42_assignment
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

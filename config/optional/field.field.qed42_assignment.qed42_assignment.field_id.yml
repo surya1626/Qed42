@@ -1,0 +1,20 @@
+uuid: 744e7581-b19e-4bbd-ad4d-11de5064f1b7
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.qed42_assignment.field_id
+  module:
+    - qed42_assignment
+id: qed42_assignment.qed42_assignment.field_id
+field_name: field_id
+entity_type: qed42_assignment
+bundle: qed42_assignment
+label: _id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

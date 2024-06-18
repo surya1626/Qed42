@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * @file
+ * Primary module creating entity.
+ */
+
+declare(strict_types=1);
+
+/**
+ * @file
+ * Provides a qed42 assignment entity type.
+ */
+
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function qed42_assignment_theme(): array {
+  return [
+    'qed42_assignment' => ['render element' => 'elements'],
+  ];
+}
+
+/**
+ * Prepares variables for qed42 assignment templates.
+ *
+ * Default template: qed42-assignment.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing the qed42
+ *     assignment information and any fields attached to the entity.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_qed42_assignment(array &$variables): void {
+  $variables['view_mode'] = $variables['elements']['#view_mode'];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['content'][$key] = $variables['elements'][$key];
+  }
+}

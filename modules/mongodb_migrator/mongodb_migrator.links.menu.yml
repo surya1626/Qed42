@@ -1,0 +1,11 @@
+mongodb_migrator.mangodb.settings:
+  title: 'MongoDB Connector'
+  description: 'Configure a Qed42 Assignment entity type.'
+  route_name:  mongodb_migrator.mongodb_api_settings
+  parent: system.admin_config
+
+mongodb_migrator.mapping.settings:
+  title: 'MongoDB Field Mapping'
+  description: 'List of qed42 assignments.'
+  route_name: mongodb_migrator.settings
+  parent: system.admin_config

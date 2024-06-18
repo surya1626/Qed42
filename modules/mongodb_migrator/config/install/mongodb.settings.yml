@@ -1,0 +1,3 @@
+mongodb_url: 'mongodb+srv://Admin:admin123@cluster0.rkxqlzb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+mangodb_database: qed42
+mangodb_collection: qed42

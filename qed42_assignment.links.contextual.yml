@@ -1,0 +1,10 @@
+entity.qed42_assignment.edit_form:
+  route_name: entity.qed42_assignment.edit_form
+  group: qed42_assignment
+  title: 'Edit'
+
+entity.qed42_assignment.delete_form:
+  route_name: entity.qed42_assignment.delete_form
+  group: qed42_assignment
+  title: 'Delete'
+  weight: 10

@@ -1,0 +1,17 @@
+administer qed42_assignment:
+  title: 'Administer qed42 assignments'
+  restrict access: true
+view qed42_assignment:
+  title: 'View qed42 assignment'
+edit qed42_assignment:
+  title: 'Edit qed42 assignment'
+delete qed42_assignment:
+  title: 'Delete qed42 assignment'
+create qed42_assignment:
+  title: 'Create qed42 assignment'
+view qed42_assignment revision:
+  title: 'View qed42 assignment revision'
+revert qed42_assignment revision:
+  title: 'Revert qed42 assignment revision'
+delete qed42_assignment revision:
+  title: 'Delete qed42 assignment revision'

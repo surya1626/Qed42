@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - qed42_assignment
+id: qed42_assignment_save_action
+label: 'Save qed42 assignments'
+type: qed42_assignment
+plugin: entity:save_action:qed42_assignment
+configuration: {  }

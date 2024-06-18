@@ -1,0 +1,14 @@
+mongodb_migrator.settings:
+  path: 'admin/config/qed42-assignment'
+  defaults:
+    _form: '\Drupal\mongodb_migrator\Form\MappingForm'
+    _title: 'Qed42 Assignment'
+  requirements:
+    _permission: 'administer qed42_assignment'
+mongodb_migrator.mongodb_api_settings:
+  path: 'admin/config/mongodb-connection'
+  defaults:
+    _form: '\Drupal\mongodb_migrator\Form\MongoDBConfigForm'
+    _title: 'MongoDB Connector'
+  requirements:
+    _permission: 'administer qed42_assignment'

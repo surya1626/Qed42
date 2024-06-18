@@ -1,0 +1,9 @@
+services:
+  mongodb_migrator.mongo_service:
+    class: 'Drupal\mongodb_migrator\Service\MongoDBService'
+    arguments: ['@config.factory']
+  mongodb_migrator.preimport_event_subscriber:
+    class: Drupal\mongodb_migrator\EventSubscriber\MigrationPreImportSubscriber
+    arguments: ['@config.factory','@mongodb_migrator.mongo_service']
+    tags:
+      - { name: event_subscriber }

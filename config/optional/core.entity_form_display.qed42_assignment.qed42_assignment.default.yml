@@ -1,0 +1,79 @@
+uuid: d7584efd-84e3-4d43-ac89-60cf5a47cc01
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.qed42_assignment.qed42_assignment.field_city
+    - field.field.qed42_assignment.qed42_assignment.field_id
+    - field.field.qed42_assignment.qed42_assignment.field_location
+    - field.field.qed42_assignment.qed42_assignment.field_pop
+    - field.field.qed42_assignment.qed42_assignment.field_state
+  module:
+    - geofield
+    - qed42_assignment
+id: qed42_assignment.qed42_assignment.default
+targetEntityType: qed42_assignment
+bundle: qed42_assignment
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_city:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_id:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_location:
+    type: geofield_latlon
+    weight: 28
+    region: content
+    settings:
+      html5_geolocation: false
+    third_party_settings: {  }
+  field_pop:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_state:
+    type: string_textfield
+    weight: 30
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  label:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 0
+    region: content
+    settings:
+      display_label: false
+    third_party_settings: {  }
+hidden: {  }

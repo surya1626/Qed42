@@ -1,0 +1,22 @@
+entity.qed42_assignment.settings:
+  title: 'Settings'
+  route_name: entity.qed42_assignment.settings
+  base_route: entity.qed42_assignment.settings
+entity.qed42_assignment.view:
+  title: 'View'
+  route_name: entity.qed42_assignment.canonical
+  base_route: entity.qed42_assignment.canonical
+entity.qed42_assignment.edit_form:
+  title: 'Edit'
+  route_name: entity.qed42_assignment.edit_form
+  base_route: entity.qed42_assignment.canonical
+entity.qed42_assignment.delete_form:
+  title: 'Delete'
+  route_name: entity.qed42_assignment.delete_form
+  base_route: entity.qed42_assignment.canonical
+  weight: 10
+entity.qed42_assignment.collection:
+  title: 'Qed42 Assignments'
+  route_name: entity.qed42_assignment.collection
+  base_route: system.admin_content
+  weight: 10

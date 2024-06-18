@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for MongoDB Migrator module.
+ */
+
+/**
+ * Hook_uninstall.
+ */
+function mongodb_migrator_uninstall() {
+  \Drupal::configFactory()->getEditable('migrate_plus.migration.mongodb_to_custom_entity')->delete();
+  \Drupal::configFactory()->getEditable('mongodb.settings')->delete();
+  \Drupal::configFactory()->getEditable('mapping.settings')->delete();
+}

@@ -1,0 +1,11 @@
+entity.qed42_assignment.settings:
+  title: 'Qed42 Assignment'
+  description: 'Configure a Qed42 Assignment entity type.'
+  route_name:  entity.qed42_assignment.settings
+  parent: system.admin_structure
+
+entity.qed42_assignment.collection:
+  title: 'Qed42 Assignments'
+  description: 'List of qed42 assignments.'
+  route_name: entity.qed42_assignment.collection
+  parent: system.admin_content

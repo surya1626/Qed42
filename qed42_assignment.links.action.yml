@@ -1,0 +1,5 @@
+qed42_assignment.add_form:
+  title: 'Add qed42 assignment'
+  route_name: entity.qed42_assignment.add_form
+  appears_on:
+    - entity.qed42_assignment.collection

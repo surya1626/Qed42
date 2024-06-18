@@ -1,0 +1,21 @@
+uuid: cb96e035-c15f-4f60-b07b-1c3c751cba28
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - qed42_assignment
+id: qed42_assignment.field_id
+field_name: field_id
+entity_type: qed42_assignment
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

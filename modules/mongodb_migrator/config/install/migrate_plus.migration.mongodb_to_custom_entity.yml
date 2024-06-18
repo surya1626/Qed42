@@ -1,0 +1,24 @@
+id: mongodb_to_custom_entity
+label: 'Migrate MongoDB data to Custom Entity'
+migration_group: custom
+source:
+  plugin: mongodb_to_custom_entity
+  database: qed42
+process:
+  label:
+    plugin: concat
+    source:
+      - _id
+      - city
+    delimiter: /
+  field_city: city
+  field_location:
+    plugin: geofield_latlon
+    source:
+      - loc/0
+      - loc/1
+  field_pop: pop
+  field_state: state
+  field_id: _id
+destination:
+  plugin: 'entity:qed42_assignment'

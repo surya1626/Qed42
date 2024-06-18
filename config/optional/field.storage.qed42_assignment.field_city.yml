@@ -1,0 +1,21 @@
+uuid: f1cbc32a-2fad-45f2-be9f-8362a9819b25
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - qed42_assignment
+id: qed42_assignment.field_city
+field_name: field_city
+entity_type: qed42_assignment
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
