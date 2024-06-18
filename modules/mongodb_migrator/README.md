@@ -25,6 +25,6 @@ It will create seperate config for field mapping.
   Field below in the select list will be the mapping of drupal field.
 ![alt text](image.png)
 - After Configuring mapping, run the migration script
-  ``` ddev drush mim mongodb_to_custom_entity
+  ``` ddev drush mim mongodb_to_custom_entity ```bash
 
 
